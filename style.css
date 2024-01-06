@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/** TOP CONTAİNER BAŞLANGIÇ **/
+
+.top-container{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    padding: 0px 250px;
+}
+
+.nav-container{
+    flex-flow: 1 0 40%;
+    padding-top: 30px;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.nav-container ul li:nth-child(1){
+    height: 60px;
+    color: #F9FAF8;
+    margin-right:auto;
+}
+
+.nav-container ul li:nth-child(1) img{
+    height: 100%;
+}
+
+.nav-container ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.nav-container ul li a:hover{
+    color: #ce4100;
+    transition: .5s;
+    font-size: 40px;
+}
+
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis:40%;
+}
+
+.left h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    
+}
+
+.left p{
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 40px;
+    
+}
+.left button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.right{
+    width: 650px;
+    height: 300px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right img{
+   height: 100%;
+   width: 100%;
+   object-fit: fill;
+}
+.btn{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/** TOP CONTAİNER BİTİŞ **/
+
+
+
+
+
+
+
+
+/** MAİN  BAŞLANGIÇ **/
+
+ /* Section 1  Başlangıç*/
+
+.kapsayici{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    gap: 40px;
+    padding-top: 50px;
+   
+}
+
+.kapsayici h2{
+    font-size: 40px;
+}
+
+.mavi-alan{
+    display: flex;
+    gap:40px;
+    margin-top: 40px;
+}
+
+.cercevesi{
+    width: 200px;
+    height: 210px;
+    border: 10px solid #51A5D7;
+    border-radius: 20px;
+}
+.cercevesi img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.text{
+    margin-top: 10px;
+}
+.text p{
+    font-size: 20px;
+    color: #818181;
+    text-align: center;
+}
+ /* Section 1  bitiş*/
+
+
+
+
+ 
+ /* Section 2  Başlangıç*/
+
+
+.quote-wrapper{
+    height: 50vh;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-div{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.text-div p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.text-div span{
+    align-self: flex-end;
+    font-size: 25px;
+    color: #1f2937;
+    font-weight: bold;
+
+}
+
+ /* Section 2  Bitiş*/
+
+ /* Section 3  Start */
+.call-action{
+    display: flex;
+    justify-content: center;
+    padding: 150px 250px;
+}
+
+
+ .mavi-cerceve{
+    height: 180px;
+    width: 100%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ #action{
+    font-size: 30px;
+    color: #F9FAF8;
+ }
+ #signup-text{
+    font-size: 17px;
+    color: #E5E7EB;
+ }
+
+.btn-white{
+    color: #F9FAF8;
+    background-color: transparent;
+    border: 3px solid #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+ /* Section 3  End */
+
+/** MAİN BİTİŞ **/
+
+
+
+/** Footer Başlangıç **/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.logos{
+    margin-left: 10px;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+.logos a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.logos a:nth-child(1):hover{
+    color: #dd2a7b;
+    transition: .4s;
+}
+.logos a:nth-child(2):hover{
+    color: #2a7edd;
+    transition: .4s;
+}
+.logos a:nth-child(3):hover{
+    color: #f2f2f2;
+    transition: .4s;
+}
+
+/** Footer BİTİŞ **/
